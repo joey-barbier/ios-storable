@@ -1,0 +1,27 @@
+PODS:
+  - OrkaCoreDataWrapper (1.0.0)
+  - OrkaPreviewData (1.0.1)
+  - OrkaStorable (1.0.0):
+    - OrkaCoreDataWrapper (= 1.0.0)
+
+DEPENDENCIES:
+  - OrkaPreviewData
+  - OrkaStorable (from `../`)
+
+SPEC REPOS:
+  https://github.com/CocoaPods/Specs.git:
+    - OrkaCoreDataWrapper
+    - OrkaPreviewData
+
+EXTERNAL SOURCES:
+  OrkaStorable:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  OrkaCoreDataWrapper: 2027574d808c28759fe016809bb5e993280f74c6
+  OrkaPreviewData: e8c23059065f4159e8f1555549fbca7cc6a2a068
+  OrkaStorable: 5a8f257151366f86131e5149de38135b1cb3c535
+
+PODFILE CHECKSUM: a1453737c530c8512b6040766ffe1c4c9693db83
+
+COCOAPODS: 1.11.3
