@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		045DB59029AC8DE500C90394 /* OrkaStorable in Frameworks */ = {isa = PBXBuildFile; productRef = 045DB58F29AC8DE500C90394 /* OrkaStorable */; };
+		045DB59329AC903700C90394 /* OrkaPreviewData in Frameworks */ = {isa = PBXBuildFile; productRef = 045DB59229AC903700C90394 /* OrkaPreviewData */; };
 		2809B63628762987002CBF30 /* TodoRowAdd.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2809B63528762987002CBF30 /* TodoRowAdd.swift */; };
 		2809B63728762D81002CBF30 /* Todo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28B6A962286A54AA00158393 /* Todo.swift */; };
 		28B6A92C286A503500158393 /* ios_storable_demoApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28B6A92B286A503500158393 /* ios_storable_demoApp.swift */; };
@@ -23,9 +25,6 @@
 		28B6A96C286A56DE00158393 /* TodoRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28B6A96B286A56DE00158393 /* TodoRow.swift */; };
 		28B6A96E286A5AAC00158393 /* TodoList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28B6A96D286A5AAC00158393 /* TodoList.swift */; };
 		28B6A970286A5C6D00158393 /* Views.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28B6A96F286A5C6D00158393 /* Views.swift */; };
-		5832A0DBE4A9315C2E6ABEF4 /* Pods_ios_storable_demo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 99034F2260207FAD75BE4CA4 /* Pods_ios_storable_demo.framework */; };
-		789CE377379889AA17C7724C /* Pods_ios_storable_demo_ios_storable_demoUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0DEBBBAB8A471F3D645490B4 /* Pods_ios_storable_demo_ios_storable_demoUITests.framework */; };
-		E882130CC920C6AE95C9BDF8 /* Pods_ios_storable_demoTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A03C331544F769BE00C77279 /* Pods_ios_storable_demoTests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -46,7 +45,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		0DEBBBAB8A471F3D645490B4 /* Pods_ios_storable_demo_ios_storable_demoUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ios_storable_demo_ios_storable_demoUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		045DB58C29AC8DD800C90394 /* ios-storable */ = {isa = PBXFileReference; lastKnownFileType = wrapper; name = "ios-storable"; path = ..; sourceTree = "<group>"; };
+		045DB58D29AC8DDE00C90394 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 		2809B63528762987002CBF30 /* TodoRowAdd.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodoRowAdd.swift; sourceTree = "<group>"; };
 		28B6A928286A503500158393 /* ios-storable-demo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "ios-storable-demo.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		28B6A92B286A503500158393 /* ios_storable_demoApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ios_storable_demoApp.swift; sourceTree = "<group>"; };
@@ -66,14 +66,6 @@
 		28B6A96D286A5AAC00158393 /* TodoList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodoList.swift; sourceTree = "<group>"; };
 		28B6A96F286A5C6D00158393 /* Views.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Views.swift; sourceTree = "<group>"; };
 		28B6A976286A69F400158393 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
-		3C47C8F4F2AC080FD8561DFC /* Pods-ios-storable-demo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ios-storable-demo.debug.xcconfig"; path = "Target Support Files/Pods-ios-storable-demo/Pods-ios-storable-demo.debug.xcconfig"; sourceTree = "<group>"; };
-		3E43A998593A52D715EED17E /* Pods-ios-storable-demo-ios-storable-demoUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ios-storable-demo-ios-storable-demoUITests.release.xcconfig"; path = "Target Support Files/Pods-ios-storable-demo-ios-storable-demoUITests/Pods-ios-storable-demo-ios-storable-demoUITests.release.xcconfig"; sourceTree = "<group>"; };
-		4B115B872ED2DF2D38FADC04 /* Pods-ios-storable-demo-ios-storable-demoUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ios-storable-demo-ios-storable-demoUITests.debug.xcconfig"; path = "Target Support Files/Pods-ios-storable-demo-ios-storable-demoUITests/Pods-ios-storable-demo-ios-storable-demoUITests.debug.xcconfig"; sourceTree = "<group>"; };
-		6C0991D98C244AC0BE3299F2 /* Pods-ios-storable-demo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ios-storable-demo.release.xcconfig"; path = "Target Support Files/Pods-ios-storable-demo/Pods-ios-storable-demo.release.xcconfig"; sourceTree = "<group>"; };
-		99034F2260207FAD75BE4CA4 /* Pods_ios_storable_demo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ios_storable_demo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		A03C331544F769BE00C77279 /* Pods_ios_storable_demoTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ios_storable_demoTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		DC3E1E8B443C58A4B21287AC /* Pods-ios-storable-demoTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ios-storable-demoTests.release.xcconfig"; path = "Target Support Files/Pods-ios-storable-demoTests/Pods-ios-storable-demoTests.release.xcconfig"; sourceTree = "<group>"; };
-		F5E1D09D2BB93099CCFFDB05 /* Pods-ios-storable-demoTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ios-storable-demoTests.debug.xcconfig"; path = "Target Support Files/Pods-ios-storable-demoTests/Pods-ios-storable-demoTests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,7 +73,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5832A0DBE4A9315C2E6ABEF4 /* Pods_ios_storable_demo.framework in Frameworks */,
+				045DB59329AC903700C90394 /* OrkaPreviewData in Frameworks */,
+				045DB59029AC8DE500C90394 /* OrkaStorable in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -89,7 +82,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E882130CC920C6AE95C9BDF8 /* Pods_ios_storable_demoTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -97,13 +89,27 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				789CE377379889AA17C7724C /* Pods_ios_storable_demo_ios_storable_demoUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		045DB58B29AC8DD800C90394 /* Packages */ = {
+			isa = PBXGroup;
+			children = (
+				045DB58C29AC8DD800C90394 /* ios-storable */,
+			);
+			name = Packages;
+			sourceTree = "<group>";
+		};
+		045DB58E29AC8DE500C90394 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		2809B5DD2870DF97002CBF30 /* Favoris */ = {
 			isa = PBXGroup;
 			children = (
@@ -114,12 +120,12 @@
 		28B6A91F286A503500158393 = {
 			isa = PBXGroup;
 			children = (
+				045DB58B29AC8DD800C90394 /* Packages */,
 				28B6A92A286A503500158393 /* ios-storable-demo */,
 				28B6A93B286A503800158393 /* ios-storable-demoTests */,
 				28B6A945286A503800158393 /* ios-storable-demoUITests */,
 				28B6A929286A503500158393 /* Products */,
-				981C62373D998846944C3387 /* Pods */,
-				ED7C8BB96863AF94E9DE59F1 /* Frameworks */,
+				045DB58E29AC8DE500C90394 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -136,6 +142,7 @@
 		28B6A92A286A503500158393 /* ios-storable-demo */ = {
 			isa = PBXGroup;
 			children = (
+				045DB58D29AC8DDE00C90394 /* Info.plist */,
 				28B6A957286A528E00158393 /* Tools */,
 				28B6A955286A528700158393 /* Data */,
 				28B6A956286A528C00158393 /* Views */,
@@ -251,29 +258,6 @@
 			path = Row;
 			sourceTree = "<group>";
 		};
-		981C62373D998846944C3387 /* Pods */ = {
-			isa = PBXGroup;
-			children = (
-				3C47C8F4F2AC080FD8561DFC /* Pods-ios-storable-demo.debug.xcconfig */,
-				6C0991D98C244AC0BE3299F2 /* Pods-ios-storable-demo.release.xcconfig */,
-				4B115B872ED2DF2D38FADC04 /* Pods-ios-storable-demo-ios-storable-demoUITests.debug.xcconfig */,
-				3E43A998593A52D715EED17E /* Pods-ios-storable-demo-ios-storable-demoUITests.release.xcconfig */,
-				F5E1D09D2BB93099CCFFDB05 /* Pods-ios-storable-demoTests.debug.xcconfig */,
-				DC3E1E8B443C58A4B21287AC /* Pods-ios-storable-demoTests.release.xcconfig */,
-			);
-			path = Pods;
-			sourceTree = "<group>";
-		};
-		ED7C8BB96863AF94E9DE59F1 /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				99034F2260207FAD75BE4CA4 /* Pods_ios_storable_demo.framework */,
-				0DEBBBAB8A471F3D645490B4 /* Pods_ios_storable_demo_ios_storable_demoUITests.framework */,
-				A03C331544F769BE00C77279 /* Pods_ios_storable_demoTests.framework */,
-			);
-			name = Frameworks;
-			sourceTree = "<group>";
-		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -281,17 +265,19 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 28B6A94C286A503800158393 /* Build configuration list for PBXNativeTarget "ios-storable-demo" */;
 			buildPhases = (
-				3D565A2D80F338D473363944 /* [CP] Check Pods Manifest.lock */,
 				28B6A924286A503500158393 /* Sources */,
 				28B6A925286A503500158393 /* Frameworks */,
 				28B6A926286A503500158393 /* Resources */,
-				D95E49DB4EF38F90B62D9B06 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
 			name = "ios-storable-demo";
+			packageProductDependencies = (
+				045DB58F29AC8DE500C90394 /* OrkaStorable */,
+				045DB59229AC903700C90394 /* OrkaPreviewData */,
+			);
 			productName = "ios-storable-demo";
 			productReference = 28B6A928286A503500158393 /* ios-storable-demo.app */;
 			productType = "com.apple.product-type.application";
@@ -300,7 +286,6 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 28B6A94F286A503800158393 /* Build configuration list for PBXNativeTarget "ios-storable-demoTests" */;
 			buildPhases = (
-				BAC7A24FFEF4CD4F59AE9F04 /* [CP] Check Pods Manifest.lock */,
 				28B6A934286A503800158393 /* Sources */,
 				28B6A935286A503800158393 /* Frameworks */,
 				28B6A936286A503800158393 /* Resources */,
@@ -319,11 +304,9 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 28B6A952286A503800158393 /* Build configuration list for PBXNativeTarget "ios-storable-demoUITests" */;
 			buildPhases = (
-				EB5F718BCB837CD7E4F816C0 /* [CP] Check Pods Manifest.lock */,
 				28B6A93E286A503800158393 /* Sources */,
 				28B6A93F286A503800158393 /* Frameworks */,
 				28B6A940286A503800158393 /* Resources */,
-				13DF70D1B477AFD66F2FAE24 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -367,6 +350,9 @@
 				Base,
 			);
 			mainGroup = 28B6A91F286A503500158393;
+			packageReferences = (
+				045DB59129AC903700C90394 /* XCRemoteSwiftPackageReference "ios-previewData" */,
+			);
 			productRefGroup = 28B6A929286A503500158393 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -404,109 +390,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
-
-/* Begin PBXShellScriptBuildPhase section */
-		13DF70D1B477AFD66F2FAE24 /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-ios-storable-demo-ios-storable-demoUITests/Pods-ios-storable-demo-ios-storable-demoUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-ios-storable-demo-ios-storable-demoUITests/Pods-ios-storable-demo-ios-storable-demoUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-ios-storable-demo-ios-storable-demoUITests/Pods-ios-storable-demo-ios-storable-demoUITests-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		3D565A2D80F338D473363944 /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-			);
-			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputFileListPaths = (
-			);
-			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-ios-storable-demo-checkManifestLockResult.txt",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
-		BAC7A24FFEF4CD4F59AE9F04 /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-			);
-			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputFileListPaths = (
-			);
-			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-ios-storable-demoTests-checkManifestLockResult.txt",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
-		D95E49DB4EF38F90B62D9B06 /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-ios-storable-demo/Pods-ios-storable-demo-frameworks-${CONFIGURATION}-input-files.xcfilelist",
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-ios-storable-demo/Pods-ios-storable-demo-frameworks-${CONFIGURATION}-output-files.xcfilelist",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-ios-storable-demo/Pods-ios-storable-demo-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		EB5F718BCB837CD7E4F816C0 /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-			);
-			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputFileListPaths = (
-			);
-			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-ios-storable-demo-ios-storable-demoUITests-checkManifestLockResult.txt",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
-/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		28B6A924286A503500158393 /* Sources */ = {
@@ -675,7 +558,6 @@
 		};
 		28B6A94D286A503800158393 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 3C47C8F4F2AC080FD8561DFC /* Pods-ios-storable-demo.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = "$(inherited)";
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -686,6 +568,7 @@
 				DEVELOPMENT_TEAM = 6M3752W435;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "ios-storable-demo/Info.plist";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -706,7 +589,6 @@
 		};
 		28B6A94E286A503800158393 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 6C0991D98C244AC0BE3299F2 /* Pods-ios-storable-demo.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = "$(inherited)";
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -717,6 +599,7 @@
 				DEVELOPMENT_TEAM = 6M3752W435;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "ios-storable-demo/Info.plist";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -737,7 +620,6 @@
 		};
 		28B6A950286A503800158393 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = F5E1D09D2BB93099CCFFDB05 /* Pods-ios-storable-demoTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = "$(inherited)";
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -758,7 +640,6 @@
 		};
 		28B6A951286A503800158393 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = DC3E1E8B443C58A4B21287AC /* Pods-ios-storable-demoTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = "$(inherited)";
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -779,7 +660,6 @@
 		};
 		28B6A953286A503800158393 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 4B115B872ED2DF2D38FADC04 /* Pods-ios-storable-demo-ios-storable-demoUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = "$(inherited)";
 				CODE_SIGN_STYLE = Automatic;
@@ -800,7 +680,6 @@
 		};
 		28B6A954286A503800158393 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 3E43A998593A52D715EED17E /* Pods-ios-storable-demo-ios-storable-demoUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = "$(inherited)";
 				CODE_SIGN_STYLE = Automatic;
@@ -859,6 +738,29 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		045DB59129AC903700C90394 /* XCRemoteSwiftPackageReference "ios-previewData" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/joey-barbier/ios-previewData/";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		045DB58F29AC8DE500C90394 /* OrkaStorable */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = OrkaStorable;
+		};
+		045DB59229AC903700C90394 /* OrkaPreviewData */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 045DB59129AC903700C90394 /* XCRemoteSwiftPackageReference "ios-previewData" */;
+			productName = OrkaPreviewData;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 28B6A920286A503500158393 /* Project object */;
 }

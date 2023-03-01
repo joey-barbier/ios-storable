@@ -1,0 +1,23 @@
+{
+  "pins" : [
+    {
+      "identity" : "ios-coredatawrapper",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/joey-barbier/ios-coredatawrapper.git",
+      "state" : {
+        "revision" : "7247fc80c886a717563dd9d963cbe32f67dec53b",
+        "version" : "1.0.2"
+      }
+    },
+    {
+      "identity" : "ios-previewdata",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/joey-barbier/ios-previewData/",
+      "state" : {
+        "revision" : "a1b58970ed6cf0ce812a1bbbc0ba5289f6bbfb36",
+        "version" : "1.0.2"
+      }
+    }
+  ],
+  "version" : 2
+}
