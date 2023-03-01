@@ -12,15 +12,19 @@ struct PersistenceController {
     static let shared = PersistenceController()
 
     let container: NSPersistentContainer
+    static let momURL = Bundle.module.url(forResource: "OrkaStorable", withExtension: "momd")
 
     init?(inMemory: Bool = false) {
-        let frameworkBundle = Bundle(for: Bookmark.self)
-        guard let bundleURL = frameworkBundle.resourceURL?.appendingPathComponent("OrkaStorable.bundle").appendingPathComponent("Stockable.momd") else {
+        guard let bundleURL = Self.momURL else {
             return nil
         }
-        let managedObjectModel = NSManagedObjectModel(contentsOf: bundleURL)!
+        guard let managedObjectModel = NSManagedObjectModel(contentsOf: bundleURL) else {
+            print("[OrkaStorable] - ERROR ! Can't create a context for CoreData !")
+            return nil
+        }
         print("Path local : \(bundleURL)")
-        container = NSPersistentContainer(name: "Storable", managedObjectModel: managedObjectModel)
+        container = NSPersistentContainer(name: "OrkaStorable",
+                                          managedObjectModel: managedObjectModel)
         if inMemory {
             container.persistentStoreDescriptions.first!.url = URL(fileURLWithPath: "/dev/null")
         }

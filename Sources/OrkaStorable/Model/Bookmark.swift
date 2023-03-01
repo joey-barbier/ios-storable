@@ -17,9 +17,10 @@ final class Bookmark: NSManagedObject, EntityProtocol {
     @NSManaged public var tag: String
     
     @discardableResult
-    convenience init(id: String, data: String, tag: String) {
+    convenience init?(id: String, data: String, tag: String) {
         guard let managedObjectContext = CoreDataHelper.context else {
-            fatalError("Failed context")
+            print("[OrkaStorable] - ERROR ! managedObjectContext does not exist !")
+            return nil
         }
         self.init(context: managedObjectContext)
         

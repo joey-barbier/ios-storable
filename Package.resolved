@@ -1,0 +1,14 @@
+{
+  "pins" : [
+    {
+      "identity" : "ios-coredatawrapper",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/joey-barbier/ios-coredatawrapper.git",
+      "state" : {
+        "revision" : "7247fc80c886a717563dd9d963cbe32f67dec53b",
+        "version" : "1.0.2"
+      }
+    }
+  ],
+  "version" : 2
+}
